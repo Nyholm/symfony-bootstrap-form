@@ -33,6 +33,7 @@ SSHKit.config.command_map[:composer] = "php #{shared_path.join("composer.phar")}
 
 ## Hooks
 before "deploy:updated", "deploy:set_permissions:acl"
+after "composer:install", "custom_composer:update"
 
 namespace :deploy do
   after :updated, 'composer:install_executable'
