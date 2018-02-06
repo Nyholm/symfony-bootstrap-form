@@ -4,7 +4,7 @@ pipeline {
         stage('Install') {
             steps {
                 sh 'rm -rf ./app/cache/*'
-                sh 'composer install'
+                sh 'composer update'
             }
         }
     }
