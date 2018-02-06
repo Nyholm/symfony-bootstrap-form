@@ -6,7 +6,9 @@ namespace App\Form;
 
 use App\Model\SuperModel;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;
+use Symfony\Component\Form\Extension\Core\Type\MoneyType;
 use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -18,6 +20,8 @@ class SuperFormType extends AbstractType
     {
         $builder->add('username', TextType::class);
         $builder->add('email', EmailType::class);
+        $builder->add('birthday', DateType::class);
+        $builder->add('money', MoneyType::class);
 
         $builder->add('submit', SubmitType::class);
     }

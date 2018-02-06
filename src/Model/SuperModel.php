@@ -25,4 +25,19 @@ class SuperModel
      * @Assert\Email()
      */
     public $email;
+
+    /**
+     * @var string
+     * @Assert\Date()
+     */
+    public $birthday;
+
+
+    /**
+     * @var string
+     * @Assert\NotBlank()
+     */
+    public $money;
+
+
 }
