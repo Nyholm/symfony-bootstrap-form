@@ -1,0 +1,493 @@
+# Logfile created on 2018-02-06 20:54:15 +0100 by logger.rb/56815
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 20:54:15 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [acc4da40] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [acc4da40] Finished in 0.206 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [acdcae8b] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [acdcae8b] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [7eef3886] Running /usr/bin/env git ls-remote git@github.com:Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 20:56:43 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [54533585] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [54533585] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [b0ef0dfc] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [b0ef0dfc] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [6fec6fe4] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [6fec6fe4] Finished in 0.678 seconds with exit status 0 (successful).
+  INFO [4e6f9cb1] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [4e6f9cb1] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [4aeaf7c3] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [4aeaf7c3] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [23d517d7] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/app/config /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [23d517d7] Finished in 0.055 seconds with exit status 0 (successful).
+ ERROR linked file /home/sites/io.happyr.symfony-form/shared/app/config/parameters.yml does not exist on symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 20:57:45 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bb33cecb] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [bb33cecb] Finished in 0.188 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [9e0fa3f3] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [9e0fa3f3] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [a7a7244a] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [a7a7244a] Finished in 0.671 seconds with exit status 0 (successful).
+  INFO [f2d68a1f] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [f2d68a1f] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [f116aa0b] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [f116aa0b] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [fe280eee] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [fe280eee] Finished in 0.055 seconds with exit status 0 (successful).
+ ERROR linked file /home/sites/io.happyr.symfony-form/shared/.env does not exist on symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 20:58:37 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [bc22ead1] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [bc22ead1] Finished in 0.180 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [4dabd512] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [4dabd512] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [88952381] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [88952381] Finished in 0.685 seconds with exit status 0 (successful).
+  INFO [add16093] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [add16093] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [4fdefd19] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [4fdefd19] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [700e9b20] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [700e9b20] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [284be92d] Running /usr/bin/env git clone --mirror https://github.com/Nyholm/symfony-bootstrap-form.git /home/sites/io.happyr.symfony-form/repo as deployer@symfony-form.happyr.io
+  INFO [284be92d] Finished in 1.052 seconds with exit status 0 (successful).
+  INFO [a6f27fa9] Running /usr/bin/env git remote set-url origin https://github.com/Nyholm/symfony-bootstrap-form.git as deployer@symfony-form.happyr.io
+  INFO [a6f27fa9] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [bcb328e5] Running /usr/bin/env git remote update --prune as deployer@symfony-form.happyr.io
+  INFO [bcb328e5] Finished in 0.692 seconds with exit status 0 (successful).
+  INFO [4a3da36d] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206195839 as deployer@symfony-form.happyr.io
+  INFO [4a3da36d] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [96762efe] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/sites/io.happyr.symfony-form/releases/20180206195839 as deployer@symfony-form.happyr.io
+  INFO [96762efe] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [6cdfea49] Running /usr/bin/env echo "4f7408c0e9cdb6b891c3b903a4a527abae57cd9c" >> REVISION as deployer@symfony-form.happyr.io
+  INFO [6cdfea49] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [52cbb9e1] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206195839 as deployer@symfony-form.happyr.io
+  INFO [52cbb9e1] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [25feaafc] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/.env /home/sites/io.happyr.symfony-form/releases/20180206195839/.env as deployer@symfony-form.happyr.io
+  INFO [25feaafc] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [27115d6a] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206195839/var as deployer@symfony-form.happyr.io
+  INFO [27115d6a] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [953d6792] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/releases/20180206195839/var/logs as deployer@symfony-form.happyr.io
+  INFO [953d6792] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [80a76423] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/log /home/sites/io.happyr.symfony-form/releases/20180206195839/var/log as deployer@symfony-form.happyr.io
+  INFO [80a76423] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [6aefe69c] Running /usr/bin/env mkdir -pv var/cache as deployer@symfony-form.happyr.io
+  INFO [6aefe69c] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [ea853841] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as deployer@symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 20:59:22 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8b2a7853] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [8b2a7853] Finished in 0.199 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [f841d009] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [f841d009] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [8fb950d4] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [8fb950d4] Finished in 0.689 seconds with exit status 0 (successful).
+  INFO [d1fef151] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [d1fef151] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [c0df4441] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [c0df4441] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [cc64d943] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [cc64d943] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [0b5780c2] Running /usr/bin/env curl -s https://getcomposer.org/installer | php  as deployer@symfony-form.happyr.io
+  INFO [0b5780c2] Finished in 1.303 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/sites/io.happyr.symfony-form/repo
+  INFO [d06d3646] Running /usr/bin/env git remote set-url origin https://github.com/Nyholm/symfony-bootstrap-form.git as deployer@symfony-form.happyr.io
+  INFO [d06d3646] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [55768b3f] Running /usr/bin/env git remote update --prune as deployer@symfony-form.happyr.io
+  INFO [55768b3f] Finished in 0.713 seconds with exit status 0 (successful).
+  INFO [0ab2555c] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206195925 as deployer@symfony-form.happyr.io
+  INFO [0ab2555c] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [f113d8cf] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/sites/io.happyr.symfony-form/releases/20180206195925 as deployer@symfony-form.happyr.io
+  INFO [f113d8cf] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [a0559bb8] Running /usr/bin/env echo "4f7408c0e9cdb6b891c3b903a4a527abae57cd9c" >> REVISION as deployer@symfony-form.happyr.io
+  INFO [a0559bb8] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [bf495d06] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206195925 as deployer@symfony-form.happyr.io
+  INFO [bf495d06] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [47cd1c67] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/.env /home/sites/io.happyr.symfony-form/releases/20180206195925/.env as deployer@symfony-form.happyr.io
+  INFO [47cd1c67] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [d6289d8b] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206195925/var as deployer@symfony-form.happyr.io
+  INFO [d6289d8b] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [7acb74a6] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/releases/20180206195925/var/logs as deployer@symfony-form.happyr.io
+  INFO [7acb74a6] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [f80ed675] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/log /home/sites/io.happyr.symfony-form/releases/20180206195925/var/log as deployer@symfony-form.happyr.io
+  INFO [f80ed675] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [47356eea] Running /usr/bin/env mkdir -pv var/cache as deployer@symfony-form.happyr.io
+  INFO [47356eea] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [af9b3bbc] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as deployer@symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 21:00:56 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [66136ebe] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [66136ebe] Finished in 0.185 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [c50552f4] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [c50552f4] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [57aee637] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [57aee637] Finished in 0.689 seconds with exit status 0 (successful).
+  INFO [9395db88] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [9395db88] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [3da1f907] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [3da1f907] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [3a1e9e57] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [3a1e9e57] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/sites/io.happyr.symfony-form/repo
+  INFO [1c2d5c43] Running /usr/bin/env git remote set-url origin https://github.com/Nyholm/symfony-bootstrap-form.git as deployer@symfony-form.happyr.io
+  INFO [1c2d5c43] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [e3ca4a2f] Running /usr/bin/env git remote update --prune as deployer@symfony-form.happyr.io
+  INFO [e3ca4a2f] Finished in 0.675 seconds with exit status 0 (successful).
+  INFO [30e9f701] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200058 as deployer@symfony-form.happyr.io
+  INFO [30e9f701] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [1d5be39c] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/sites/io.happyr.symfony-form/releases/20180206200058 as deployer@symfony-form.happyr.io
+  INFO [1d5be39c] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [dd23e478] Running /usr/bin/env echo "4f7408c0e9cdb6b891c3b903a4a527abae57cd9c" >> REVISION as deployer@symfony-form.happyr.io
+  INFO [dd23e478] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [b67c00e3] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200058 as deployer@symfony-form.happyr.io
+  INFO [b67c00e3] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [fc4ab33a] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/.env /home/sites/io.happyr.symfony-form/releases/20180206200058/.env as deployer@symfony-form.happyr.io
+  INFO [fc4ab33a] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [613bc73b] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200058/var as deployer@symfony-form.happyr.io
+  INFO [613bc73b] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [e64e867a] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/releases/20180206200058/var/logs as deployer@symfony-form.happyr.io
+  INFO [e64e867a] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [5c84f692] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/log /home/sites/io.happyr.symfony-form/releases/20180206200058/var/log as deployer@symfony-form.happyr.io
+  INFO [5c84f692] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [3c90dcc8] Running /usr/bin/env mkdir -pv var/cache as deployer@symfony-form.happyr.io
+  INFO [3c90dcc8] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [fe352e45] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as deployer@symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 21:04:59 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3e72376b] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [3e72376b] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [7c1c3445] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [7c1c3445] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [2d8c5ced] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [2d8c5ced] Finished in 1.062 seconds with exit status 0 (successful).
+  INFO [45eeb15c] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [45eeb15c] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [94658578] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [94658578] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [2fb2c03a] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [2fb2c03a] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/sites/io.happyr.symfony-form/repo
+  INFO [affb6f2b] Running /usr/bin/env git remote set-url origin https://github.com/Nyholm/symfony-bootstrap-form.git as deployer@symfony-form.happyr.io
+  INFO [affb6f2b] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [bfa470f8] Running /usr/bin/env git remote update --prune as deployer@symfony-form.happyr.io
+  INFO [bfa470f8] Finished in 1.776 seconds with exit status 0 (successful).
+  INFO [30cf2320] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200501 as deployer@symfony-form.happyr.io
+  INFO [30cf2320] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [28519128] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/sites/io.happyr.symfony-form/releases/20180206200501 as deployer@symfony-form.happyr.io
+  INFO [28519128] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [2ddcf44b] Running /usr/bin/env echo "4f7408c0e9cdb6b891c3b903a4a527abae57cd9c" >> REVISION as deployer@symfony-form.happyr.io
+  INFO [2ddcf44b] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [27703cca] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200501 as deployer@symfony-form.happyr.io
+  INFO [27703cca] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [a393f65d] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/.env /home/sites/io.happyr.symfony-form/releases/20180206200501/.env as deployer@symfony-form.happyr.io
+  INFO [a393f65d] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [82e3fd95] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200501/var as deployer@symfony-form.happyr.io
+  INFO [82e3fd95] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [309058aa] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/releases/20180206200501/var/logs as deployer@symfony-form.happyr.io
+  INFO [309058aa] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [0c0b5a64] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/log /home/sites/io.happyr.symfony-form/releases/20180206200501/var/log as deployer@symfony-form.happyr.io
+  INFO [0c0b5a64] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [d1e47c38] Running /usr/bin/env mkdir -pv var/cache as deployer@symfony-form.happyr.io
+  INFO [d1e47c38] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [6fdfdff0] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as deployer@symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 21:05:16 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [258517f7] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [258517f7] Finished in 0.190 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [ed8951b7] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [ed8951b7] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [98bf997d] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [98bf997d] Finished in 0.761 seconds with exit status 0 (successful).
+  INFO [f4a996b9] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [f4a996b9] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [bad21f7b] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [bad21f7b] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [b7c92096] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [b7c92096] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/sites/io.happyr.symfony-form/repo
+  INFO [27639a00] Running /usr/bin/env git remote set-url origin https://github.com/Nyholm/symfony-bootstrap-form.git as deployer@symfony-form.happyr.io
+  INFO [27639a00] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [3231bebb] Running /usr/bin/env git remote update --prune as deployer@symfony-form.happyr.io
+  INFO [3231bebb] Finished in 0.955 seconds with exit status 0 (successful).
+  INFO [77ae785b] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200517 as deployer@symfony-form.happyr.io
+  INFO [77ae785b] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [6e884c23] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/sites/io.happyr.symfony-form/releases/20180206200517 as deployer@symfony-form.happyr.io
+  INFO [6e884c23] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [00e480ca] Running /usr/bin/env echo "c7e8225b46766fee83b81676b9d196035b0de367" >> REVISION as deployer@symfony-form.happyr.io
+  INFO [00e480ca] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [98749f90] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200517 as deployer@symfony-form.happyr.io
+  INFO [98749f90] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [a7895140] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/.env /home/sites/io.happyr.symfony-form/releases/20180206200517/.env as deployer@symfony-form.happyr.io
+  INFO [a7895140] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [68ae3890] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200517/var as deployer@symfony-form.happyr.io
+  INFO [68ae3890] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [a279dd6c] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/releases/20180206200517/var/logs as deployer@symfony-form.happyr.io
+  INFO [a279dd6c] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [bce3716d] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/log /home/sites/io.happyr.symfony-form/releases/20180206200517/var/log as deployer@symfony-form.happyr.io
+  INFO [bce3716d] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [9116eadb] Running /usr/bin/env mkdir -pv var/cache as deployer@symfony-form.happyr.io
+  INFO [9116eadb] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [699f00b8] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as deployer@symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 21:06:48 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [854f2853] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [854f2853] Finished in 0.196 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [53d10714] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [53d10714] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [256c805d] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [256c805d] Finished in 0.779 seconds with exit status 0 (successful).
+  INFO [5ed6cc87] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [5ed6cc87] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [dd3ac503] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [dd3ac503] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [7ee6c52d] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [7ee6c52d] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/sites/io.happyr.symfony-form/repo
+  INFO [8bc7f6a9] Running /usr/bin/env git remote set-url origin https://github.com/Nyholm/symfony-bootstrap-form.git as deployer@symfony-form.happyr.io
+  INFO [8bc7f6a9] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [79566f5e] Running /usr/bin/env git remote update --prune as deployer@symfony-form.happyr.io
+  INFO [79566f5e] Finished in 0.965 seconds with exit status 0 (successful).
+  INFO [5c9ce7a1] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200650 as deployer@symfony-form.happyr.io
+  INFO [5c9ce7a1] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [1c4ad2bf] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/sites/io.happyr.symfony-form/releases/20180206200650 as deployer@symfony-form.happyr.io
+  INFO [1c4ad2bf] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [fc06b3ee] Running /usr/bin/env echo "05b1e61b785fd1df04ad1c37074b290fbfda1088" >> REVISION as deployer@symfony-form.happyr.io
+  INFO [fc06b3ee] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [de12808a] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200650 as deployer@symfony-form.happyr.io
+  INFO [de12808a] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [3bca75b8] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/.env /home/sites/io.happyr.symfony-form/releases/20180206200650/.env as deployer@symfony-form.happyr.io
+  INFO [3bca75b8] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [acc175bc] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200650/var as deployer@symfony-form.happyr.io
+  INFO [acc175bc] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [3729dd51] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/releases/20180206200650/var/logs as deployer@symfony-form.happyr.io
+  INFO [3729dd51] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [fbddf537] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/log /home/sites/io.happyr.symfony-form/releases/20180206200650/var/log as deployer@symfony-form.happyr.io
+  INFO [fbddf537] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [d0828510] Running /usr/bin/env mkdir -pv var/cache as deployer@symfony-form.happyr.io
+  INFO [d0828510] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [6c977071] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as deployer@symfony-form.happyr.io
+  INFO [6c977071] Finished in 4.562 seconds with exit status 0 (successful).
+  INFO [fe77273f] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:ubuntu:rwX -m u:deployer:rwX /home/sites/io.happyr.symfony-form/releases/20180206200650/var as deployer@symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 21:07:19 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e0345bdc] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [e0345bdc] Finished in 0.185 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [0d721c76] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [0d721c76] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [f2ee0f78] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [f2ee0f78] Finished in 0.791 seconds with exit status 0 (successful).
+  INFO [0b41d074] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [0b41d074] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [cfe3328d] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [cfe3328d] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [2220c8a5] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [2220c8a5] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/sites/io.happyr.symfony-form/repo
+  INFO [2344cbf7] Running /usr/bin/env git remote set-url origin https://github.com/Nyholm/symfony-bootstrap-form.git as deployer@symfony-form.happyr.io
+  INFO [2344cbf7] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [25af236c] Running /usr/bin/env git remote update --prune as deployer@symfony-form.happyr.io
+  INFO [25af236c] Finished in 0.715 seconds with exit status 0 (successful).
+  INFO [db7a035f] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200721 as deployer@symfony-form.happyr.io
+  INFO [db7a035f] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [d62e7a90] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/sites/io.happyr.symfony-form/releases/20180206200721 as deployer@symfony-form.happyr.io
+  INFO [d62e7a90] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [c20af7e6] Running /usr/bin/env echo "05b1e61b785fd1df04ad1c37074b290fbfda1088" >> REVISION as deployer@symfony-form.happyr.io
+  INFO [c20af7e6] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [3086d1a4] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200721 as deployer@symfony-form.happyr.io
+  INFO [3086d1a4] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [4741414c] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/.env /home/sites/io.happyr.symfony-form/releases/20180206200721/.env as deployer@symfony-form.happyr.io
+  INFO [4741414c] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [92788470] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200721/var as deployer@symfony-form.happyr.io
+  INFO [92788470] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [d954f243] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/releases/20180206200721/var/logs as deployer@symfony-form.happyr.io
+  INFO [d954f243] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [b877873a] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/log /home/sites/io.happyr.symfony-form/releases/20180206200721/var/log as deployer@symfony-form.happyr.io
+  INFO [b877873a] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [bc7942c8] Running /usr/bin/env mkdir -pv var/cache as deployer@symfony-form.happyr.io
+  INFO [bc7942c8] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [c63c5cba] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as deployer@symfony-form.happyr.io
+  INFO [c63c5cba] Finished in 3.756 seconds with exit status 0 (successful).
+  INFO [81381cb5] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:ubuntu:rwX -m u:deployer:rwX /home/sites/io.happyr.symfony-form/releases/20180206200721/var as deployer@symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 21:08:46 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [ddfce335] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [ddfce335] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [9f4c7ab6] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [9f4c7ab6] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [8d080a05] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [8d080a05] Finished in 0.721 seconds with exit status 0 (successful).
+  INFO [44a90876] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [44a90876] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [1b440960] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [1b440960] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [08c4476d] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [08c4476d] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/sites/io.happyr.symfony-form/repo
+  INFO [b75cebea] Running /usr/bin/env git remote set-url origin https://github.com/Nyholm/symfony-bootstrap-form.git as deployer@symfony-form.happyr.io
+  INFO [b75cebea] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [48d859dc] Running /usr/bin/env git remote update --prune as deployer@symfony-form.happyr.io
+  INFO [48d859dc] Finished in 0.708 seconds with exit status 0 (successful).
+  INFO [9989d405] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200847 as deployer@symfony-form.happyr.io
+  INFO [9989d405] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [6611fd05] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/sites/io.happyr.symfony-form/releases/20180206200847 as deployer@symfony-form.happyr.io
+  INFO [6611fd05] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [b553ae62] Running /usr/bin/env echo "05b1e61b785fd1df04ad1c37074b290fbfda1088" >> REVISION as deployer@symfony-form.happyr.io
+  INFO [b553ae62] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [49c7210a] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200847 as deployer@symfony-form.happyr.io
+  INFO [49c7210a] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [f5176adf] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/.env /home/sites/io.happyr.symfony-form/releases/20180206200847/.env as deployer@symfony-form.happyr.io
+  INFO [f5176adf] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [b5daa24d] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206200847/var as deployer@symfony-form.happyr.io
+  INFO [b5daa24d] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [d6ded7f1] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/releases/20180206200847/var/logs as deployer@symfony-form.happyr.io
+  INFO [d6ded7f1] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [586baec4] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/log /home/sites/io.happyr.symfony-form/releases/20180206200847/var/log as deployer@symfony-form.happyr.io
+  INFO [586baec4] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [5450840a] Running /usr/bin/env mkdir -pv var/cache as deployer@symfony-form.happyr.io
+  INFO [5450840a] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [c9e494b1] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as deployer@symfony-form.happyr.io
+  INFO [c9e494b1] Finished in 3.452 seconds with exit status 0 (successful).
+  INFO [776007ad] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:ubuntu:rwX -m u:deployer:rwX /home/sites/io.happyr.symfony-form/releases/20180206200847/var as deployer@symfony-form.happyr.io
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 21:11:07 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2b444a61] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [2b444a61] Finished in 0.187 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [dff3f82a] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [dff3f82a] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [1c55bab0] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [1c55bab0] Finished in 0.786 seconds with exit status 0 (successful).
+  INFO [05458853] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [05458853] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [0f88d21e] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [0f88d21e] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [45da9456] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [45da9456] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/sites/io.happyr.symfony-form/repo
+  INFO [581069b5] Running /usr/bin/env git remote set-url origin https://github.com/Nyholm/symfony-bootstrap-form.git as deployer@symfony-form.happyr.io
+  INFO [581069b5] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [da1ae525] Running /usr/bin/env git remote update --prune as deployer@symfony-form.happyr.io
+  INFO [da1ae525] Finished in 0.729 seconds with exit status 0 (successful).
+  INFO [a541b3a1] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206201108 as deployer@symfony-form.happyr.io
+  INFO [a541b3a1] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [a7d1e1cb] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/sites/io.happyr.symfony-form/releases/20180206201108 as deployer@symfony-form.happyr.io
+  INFO [a7d1e1cb] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [ba443686] Running /usr/bin/env echo "05b1e61b785fd1df04ad1c37074b290fbfda1088" >> REVISION as deployer@symfony-form.happyr.io
+  INFO [ba443686] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [4edaabbe] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206201108 as deployer@symfony-form.happyr.io
+  INFO [4edaabbe] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [682295f0] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/.env /home/sites/io.happyr.symfony-form/releases/20180206201108/.env as deployer@symfony-form.happyr.io
+  INFO [682295f0] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [44f236c2] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206201108/var as deployer@symfony-form.happyr.io
+  INFO [44f236c2] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [707f8adf] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/releases/20180206201108/var/logs as deployer@symfony-form.happyr.io
+  INFO [707f8adf] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [27d5341f] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/log /home/sites/io.happyr.symfony-form/releases/20180206201108/var/log as deployer@symfony-form.happyr.io
+  INFO [27d5341f] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [7e9ade8c] Running /usr/bin/env mkdir -pv var/cache as deployer@symfony-form.happyr.io
+  INFO [7e9ade8c] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [420ac7dd] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as deployer@symfony-form.happyr.io
+  INFO [420ac7dd] Finished in 3.423 seconds with exit status 0 (successful).
+  INFO [443231b6] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar update as deployer@symfony-form.happyr.io
+  INFO [443231b6] Finished in 34.936 seconds with exit status 0 (successful).
+  INFO [64ba7dfe] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:deployer:rwX -m u:deployer:rwX /home/sites/io.happyr.symfony-form/releases/20180206201108/var as deployer@symfony-form.happyr.io
+  INFO [64ba7dfe] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [c06a9779] Running /usr/bin/env setfacl -dRn -m u:www-data:rwX -m u:deployer:rwX -m u:deployer:rwX /home/sites/io.happyr.symfony-form/releases/20180206201108/var as deployer@symfony-form.happyr.io
+  INFO [c06a9779] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [8fef097e] Running /usr/bin/env php /home/sites/io.happyr.symfony-form/releases/20180206201108/bin/console cache:warmup  --no-debug as deployer@symfony-form.happyr.io
+  INFO [8fef097e] Finished in 0.593 seconds with exit status 0 (successful).
+  INFO [c1bd5920] Running /usr/bin/env rm -f app_*.php as deployer@symfony-form.happyr.io
+  INFO [c1bd5920] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [ce582f77] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/releases/20180206201108 /home/sites/io.happyr.symfony-form/releases/current as deployer@symfony-form.happyr.io
+  INFO [ce582f77] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [b0fb2bc4] Running /usr/bin/env mv /home/sites/io.happyr.symfony-form/releases/current /home/sites/io.happyr.symfony-form as deployer@symfony-form.happyr.io
+  INFO [b0fb2bc4] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 9 deployed releases on symfony-form.happyr.io
+  INFO [0eaec635] Running /usr/bin/env rm -rf /home/sites/io.happyr.symfony-form/releases/20180206195839 /home/sites/io.happyr.symfony-form/releases/20180206195925 /home/sites/io.happyr.symfony-form/releases/20180206200058 /home/sites/io.happyr.symfony-form/releases/20180206200501 as deployer@symfony-form.happyr.io
+  INFO [0eaec635] Finished in 0.592 seconds with exit status 0 (successful).
+  INFO [83ce2fbe] Running /usr/bin/env echo "Branch master (at 05b1e61b785fd1df04ad1c37074b290fbfda1088) deployed as release 20180206201108 by tobias" >> /home/sites/io.happyr.symfony-form/revisions.log as deployer@symfony-form.happyr.io
+  INFO [83ce2fbe] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-02-06 21:16:51 +0100 cap staging deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9f2e27a6] Running /usr/bin/env mkdir -p /tmp as deployer@symfony-form.happyr.io
+  INFO [9f2e27a6] Finished in 0.189 seconds with exit status 0 (successful).
+  INFO Uploading /tmp/git-ssh-symfony-form-staging-tobias.sh 100.0%
+  INFO [2a9e06d4] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-form-staging-tobias.sh as deployer@symfony-form.happyr.io
+  INFO [2a9e06d4] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [3832f3fc] Running /usr/bin/env git ls-remote https://github.com/Nyholm/symfony-bootstrap-form.git HEAD as deployer@symfony-form.happyr.io
+  INFO [3832f3fc] Finished in 0.811 seconds with exit status 0 (successful).
+  INFO [88169370] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared /home/sites/io.happyr.symfony-form/releases as deployer@symfony-form.happyr.io
+  INFO [88169370] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [3c12a77d] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/shared/var/log as deployer@symfony-form.happyr.io
+  INFO [3c12a77d] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [afbf4a36] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/shared as deployer@symfony-form.happyr.io
+  INFO [afbf4a36] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/sites/io.happyr.symfony-form/repo
+  INFO [d8241a3d] Running /usr/bin/env git remote set-url origin https://github.com/Nyholm/symfony-bootstrap-form.git as deployer@symfony-form.happyr.io
+  INFO [d8241a3d] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [8e54d0a5] Running /usr/bin/env git remote update --prune as deployer@symfony-form.happyr.io
+  INFO [8e54d0a5] Finished in 0.856 seconds with exit status 0 (successful).
+  INFO [22fce4b2] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206201653 as deployer@symfony-form.happyr.io
+  INFO [22fce4b2] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [84569477] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/sites/io.happyr.symfony-form/releases/20180206201653 as deployer@symfony-form.happyr.io
+  INFO [84569477] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [501eb4ef] Running /usr/bin/env echo "09cde10b03ee860b526e2ad6817622626fde4362" >> REVISION as deployer@symfony-form.happyr.io
+  INFO [501eb4ef] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [57be59d3] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206201653 as deployer@symfony-form.happyr.io
+  INFO [57be59d3] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [049e4e8f] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/.env /home/sites/io.happyr.symfony-form/releases/20180206201653/.env as deployer@symfony-form.happyr.io
+  INFO [049e4e8f] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [01865cbc] Running /usr/bin/env mkdir -p /home/sites/io.happyr.symfony-form/releases/20180206201653/var as deployer@symfony-form.happyr.io
+  INFO [01865cbc] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [1ff89a44] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/logs /home/sites/io.happyr.symfony-form/releases/20180206201653/var/logs as deployer@symfony-form.happyr.io
+  INFO [1ff89a44] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO [080bbd77] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/shared/var/log /home/sites/io.happyr.symfony-form/releases/20180206201653/var/log as deployer@symfony-form.happyr.io
+  INFO [080bbd77] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [33237baa] Running /usr/bin/env mkdir -pv var/cache as deployer@symfony-form.happyr.io
+  INFO [33237baa] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [045b4f31] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar install --no-dev --no-interaction --optimize-autoloader as deployer@symfony-form.happyr.io
+  INFO [045b4f31] Finished in 6.280 seconds with exit status 0 (successful).
+  INFO [fb1ee2cb] Running php /home/sites/io.happyr.symfony-form/shared/composer.phar update as deployer@symfony-form.happyr.io
+  INFO [fb1ee2cb] Finished in 17.291 seconds with exit status 0 (successful).
+  INFO [e2ab244d] Running /usr/bin/env setfacl -Rn -m u:www-data:rwX -m u:deployer:rwX -m u:deployer:rwX /home/sites/io.happyr.symfony-form/releases/20180206201653/var as deployer@symfony-form.happyr.io
+  INFO [e2ab244d] Finished in 0.058 seconds with exit status 0 (successful).
+  INFO [1ac6cce7] Running /usr/bin/env setfacl -dRn -m u:www-data:rwX -m u:deployer:rwX -m u:deployer:rwX /home/sites/io.happyr.symfony-form/releases/20180206201653/var as deployer@symfony-form.happyr.io
+  INFO [1ac6cce7] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [b7f522c0] Running /usr/bin/env php /home/sites/io.happyr.symfony-form/releases/20180206201653/bin/console cache:warmup  --no-debug as deployer@symfony-form.happyr.io
+  INFO [b7f522c0] Finished in 1.172 seconds with exit status 0 (successful).
+  INFO [a951e990] Running /usr/bin/env rm -f app_*.php as deployer@symfony-form.happyr.io
+  INFO [a951e990] Finished in 0.057 seconds with exit status 0 (successful).
+  INFO [fbbb752e] Running /usr/bin/env ln -s /home/sites/io.happyr.symfony-form/releases/20180206201653 /home/sites/io.happyr.symfony-form/releases/current as deployer@symfony-form.happyr.io
+  INFO [fbbb752e] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [ea2903a3] Running /usr/bin/env mv /home/sites/io.happyr.symfony-form/releases/current /home/sites/io.happyr.symfony-form as deployer@symfony-form.happyr.io
+  INFO [ea2903a3] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on symfony-form.happyr.io
+  INFO [5ffa9fc1] Running /usr/bin/env rm -rf /home/sites/io.happyr.symfony-form/releases/20180206200517 as deployer@symfony-form.happyr.io
+  INFO [5ffa9fc1] Finished in 0.235 seconds with exit status 0 (successful).
+  INFO [b1f84788] Running /usr/bin/env echo "Branch master (at 09cde10b03ee860b526e2ad6817622626fde4362) deployed as release 20180206201653 by tobias" >> /home/sites/io.happyr.symfony-form/revisions.log as deployer@symfony-form.happyr.io
+  INFO [b1f84788] Finished in 0.055 seconds with exit status 0 (successful).
