@@ -2,11 +2,23 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        <title>{% block title %}Symfony form!{% endblock %}</title>
+        {% block head %}{% endblock %}
     </head>
     <body>
+        <div style="padding: 2rem 4rem">
+        <ul>
+            <li><a href="{{ path('app_index', {'theme': 'bootstrap4'}) }}">Bootstrap 4</a></li>
+            <li><a href="{{ path('app_index', {'theme': 'bootstrap4-horizontal'}) }}">Bootstrap 4 - horizontal</a></li>
+            <li><a href="{{ path('app_index', {'theme': 'bootstrap3'}) }}">Bootstrap 3</a></li>
+            <li><a href="{{ path('app_index', {'theme': 'bootstrap3-horizontal'}) }}">Bootstrap 3 - horizontal</a></li>
+            <li><a href="{{ path('app_index', {'theme': 'table'}) }}">Table</a></li>
+            <li><a href="{{ path('app_index', {'theme': 'div'}) }}">Div</a></li>
+            <li><a href="{{ path('app_index', {'theme': 'foundation'}) }}">Foundation 5</a></li>
+        </ul>
+
         {% block body %}{% endblock %}
+        </div>
         {% block javascripts %}{% endblock %}
     </body>
 </html>
