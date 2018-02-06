@@ -30,8 +30,7 @@ class SuperModel
      * @var string
      * @Assert\Date()
      */
-    public $birthday;
-
+    public $birtday;
 
     /**
      * @var string
