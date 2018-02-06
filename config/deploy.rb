@@ -23,7 +23,7 @@ set :linked_dirs, fetch(:linked_dirs, []).push('var/log')
 
 set :keep_releases, 5
 set :file_permissions_paths, ["var"]
-set :file_permissions_users, ["www-data", "ubuntu"]
+set :file_permissions_users, ["www-data", "deployer"]
 set :web_path, "public"
 
 set :composer_install_flags, '--no-dev --no-interaction --optimize-autoloader'
