@@ -14,11 +14,10 @@
         "symfony/routing": "^4.0",
         "symfony/twig-bundle": "^4.0",
         "symfony/web-server-bundle": "^4.0",
-        "symfony/yaml": "^4.0"
-    },
-    "require-dev": {
+        "symfony/yaml": "^4.0",
         "symfony/dotenv": "^4.0"
     },
+    "require-dev": {},
     "config": {
         "preferred-install": {
             "*": "dist"

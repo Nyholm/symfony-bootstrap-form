@@ -3,11 +3,12 @@ lock "~> 3.10.1"
 set :log_level, :info
 
 set :application, "symfony-form"
-set :repo_url, "git@github.com:Nyholm/symfony-bootstrap-form.git"
+set :repo_url, "https://github.com/Nyholm/symfony-bootstrap-form.git"
 set :deploy_to, "/home/sites/io.happyr.symfony-form"
+set :symfony_directory_structure, 3
 
 # Default value for :linked_files is []
-set :linked_files, fetch(:linked_files, []).push('app/config/parameters.yml')
+#set :linked_files, fetch(:linked_files, []).push('app/config/parameters.yml')
 
 set :scm, :git
 # set :format, :pretty
@@ -37,4 +38,11 @@ after "composer:install", "custom_composer:update"
 
 namespace :deploy do
   after :updated, 'composer:install_executable'
+end
+
+#### Make sure we install composer
+
+SSHKit.config.command_map[:composer] = "php #{shared_path.join("composer.phar")}"
+namespace :deploy do
+  after :starting, 'composer:install_executable'
 end
