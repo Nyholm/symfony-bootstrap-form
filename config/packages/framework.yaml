@@ -13,7 +13,10 @@ framework:
     #fragments: ~
     php_errors:
         log: true
-
+    annotations: ~
+    form: ~
+    validation:
+      enable_annotations: true
     cache:
         # Put the unique name of your app here: the prefix seed
         # is used to compute stable namespaces for cache keys.

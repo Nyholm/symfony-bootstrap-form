@@ -15,6 +15,7 @@
         "symfony/lts": "^4@dev",
         "symfony/routing": "^4.0",
         "symfony/twig-bridge": "^4.0@dev",
+        "symfony/symfony": "^4.0@dev",
         "symfony/twig-bundle": "^4.0",
         "symfony/validator": "^4.0",
         "symfony/web-server-bundle": "^4.0",
@@ -57,9 +58,6 @@
         "post-update-cmd": [
             "@auto-scripts"
         ]
-    },
-    "conflict": {
-        "symfony/symfony": "*"
     },
     "extra": {
         "symfony": {
