@@ -45,11 +45,8 @@ class SuperFormType extends AbstractType
     {
         $builder->add('username', TextType::class);
         $builder->add('email', EmailType::class);
-        $builder->add('money', MoneyType::class);
-        $builder->add('description', TextareaType::class);
-        $builder->add('nbApples', IntegerType::class);
         $builder->add('password', PasswordType::class);
-        $builder->add('tax', PercentType::class);
+        $builder->add('personalInformation', PersonalInformationFormType::class);
         $builder->add('searchInput', SearchType::class);
         $builder->add('homepage', UrlType::class);
         $builder->add('weight', RangeType::class);

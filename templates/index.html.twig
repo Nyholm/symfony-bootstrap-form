@@ -5,7 +5,48 @@
     <h1>{{ themeTemplate }}</h1>
 
     {{ form_start(form, {attr: {novalidate: "novalidate"}}) }}
-    {{ form_widget(form) }}
+
+    <p>Lets render som normal fields to see how they behave:</p>
+    {{ form_row(form.username) }}
+    {{ form_row(form.email) }}
+    {{ form_row(form.homepage) }}
+
+    <p>Below is a sub-form with some personal information</p>
+    {{ form_row(form.personalInformation) }}
+
+    <br><br>
+
+    <p>Below are different types of choice fields</p>
+    {{ form_row(form.sportsTeam) }}
+    {{ form_row(form.carManufacture) }}
+    {{ form_row(form.animal) }}
+    {{ form_row(form.foodType) }}
+
+    <br><br>
+    <p>Here are some Localized fields</p>
+    {{ form_row(form.country) }}
+    {{ form_row(form.currency) }}
+    {{ form_row(form.language) }}
+    {{ form_row(form.locale) }}
+    {{ form_row(form.timezone) }}
+
+    <br><br>
+    <p>Next follows time related fields</p>
+    {{ form_row(form.birthday) }}
+    {{ form_row(form.nextMeeting) }}
+    {{ form_row(form.nextSymfonyCon) }}
+    {{ form_row(form.wakeupTime) }}
+    {{ form_row(form.holiday) }}
+
+    <br><br>
+    <p>Here are some special forms for radio and checkbox</p>
+    {{ form_row(form.agreeLicense) }}
+    {{ form_row(form.agreePrivacy) }}
+
+    <br><br>
+    <p>The rest: </p>
+
+    {{ form_rest(form) }}
     {{ form_end(form) }}
 
 {% endblock body %}
