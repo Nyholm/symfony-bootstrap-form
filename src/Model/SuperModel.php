@@ -14,6 +14,12 @@ use Symfony\Component\Validator\Constraints as Assert;
 class SuperModel
 {
     /**
+     * @var PersonalInformation
+     * @Assert\Valid()
+     */
+    public $personalInformation;
+
+    /**
      * @var string
      * @Assert\NotNull()
      * @Assert\NotBlank()
@@ -27,38 +33,10 @@ class SuperModel
     public $email;
 
     /**
-     * @var string
-     * @Assert\NotBlank()
-     */
-    public $money;
-
-    /**
-     * TestAreaType
-     * @var string
-     * @Assert\NotBlank()
-     * @Assert\Length(min=14)
-     */
-    public $description;
-
-    /**
-     * IntegerType
-     * @var int
-     * @Assert\NotBlank()
-     * @Assert\Range(min=44)
-     */
-    public $nbApples;
-
-    /**
      * PasswordType
      * @var int
      */
     public $password;
-
-    /**
-     * PercentType
-     * @var float
-     */
-    public $tax;
 
     /**
      * SearchType
@@ -211,8 +189,18 @@ class SuperModel
      */
     public $picture;
 
+    /**
+     *
+     */
+    public function __construct()
+    {
+        $this->personalInformation = new PersonalInformation();
+    }
+
     // TODO add CollectionType
     // TODO add HiddenType
     // TODO add RepeatedType
     // TODO add EntityType
+
+
 }
