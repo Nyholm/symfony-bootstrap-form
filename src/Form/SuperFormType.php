@@ -85,8 +85,12 @@ class SuperFormType extends AbstractType
         $builder->add('holiday', DateIntervalType::class);
         $builder->add('nextMeeting', DateTimeType::class);
         $builder->add('wakeupTime', TimeType::class);
-        $builder->add('agreeLicense', CheckboxType::class);
-        $builder->add('agreePrivacy', RadioType::class);
+        $builder->add('agreeLicense', CheckboxType::class, [
+            'label_attr' => ['class' => 'checkbox-custom']
+        ]);
+        $builder->add('agreePrivacy', RadioType::class, [
+            'label_attr' => ['class' => 'radio-custom']
+        ]);
         $builder->add('picture', FileType::class);
 
         $builder->add('submit', SubmitType::class);
