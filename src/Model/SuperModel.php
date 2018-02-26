@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Model;
 
 use Symfony\Component\Validator\Constraints as Assert;
+use Symfony\Component\Validator\Context\ExecutionContextInterface;
 
 /**
  * Using public properties for simplicity.
@@ -195,6 +196,28 @@ class SuperModel
     public function __construct()
     {
         $this->personalInformation = new PersonalInformation();
+    }
+
+    /**
+     * @Assert\Callback()
+     */
+    public function callbackValidation(ExecutionContextInterface $context, $payload)
+    {
+        $context->buildViolation('This feels wrong')
+            ->atPath('birthday')
+            ->addViolation();
+        $context->buildViolation('This feels wrong')
+            ->atPath('nextMeeting')
+            ->addViolation();
+        $context->buildViolation('This feels wrong')
+            ->atPath('holiday')
+            ->addViolation();
+        $context->buildViolation('This feels wrong')
+            ->atPath('wakeupTime')
+            ->addViolation();
+        $context->buildViolation('This feels wrong')
+            ->atPath('nextSymfonyCon')
+            ->addViolation();
     }
 
     // TODO add CollectionType
